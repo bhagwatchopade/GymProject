@@ -1,0 +1,1118 @@
+@media(min-width: 900px){
+    form{
+        background: #C4C4C4;
+        padding-bottom: 20%;
+    }
+    .form{
+        font-size: 18px;
+        background: #C4C4C4;
+        padding-bottom: 30%;
+    }
+    .form input{
+        font-size: 20px;
+        padding: 4px;
+        border-radius: 6px;
+        border: white;
+    }
+    .name{    
+        width: 50%;
+        float: left;
+        padding-top: 20px;
+    }
+    .name label{
+        font-size: 26px;
+        padding-left: 90px;
+        font-family: 'Arimo', sans-serif;
+    }
+    #name{
+        padding: 8px;
+      font-size: 20px;
+    }   
+    .l_name{
+        width: 50%;
+       float: right;
+       margin: 0 auto;
+       margin-top: 20px;
+    }
+    .l_name label{
+
+        font-size: 26px;
+    } 
+    #l_name{
+        margin-left: 30px;
+        font-size: 20px;
+        padding: 8px;
+    }
+    .email{
+        width: 50%;
+        float: left;
+        padding-top: 20px;
+    }
+    .email label{
+        font-size: 26px;
+        padding-left: 90px;
+    }
+    #email{
+        font-size: 20px;
+        padding: 8px;
+        margin-left: 74px;
+    }
+
+    .m_no{
+        float: right;
+        width: 50%;
+        margin-top: 40px;
+        padding-top: 20px;
+     }
+     .m_no label{
+         font-size: 26px;
+         padding-left: px;
+     }
+     #m_no{
+        font-size: 20px;
+        padding: 8px;
+        margin-left: 34px;
+     }
+     .address{
+         width: 50%;
+         float: right;
+         padding-top: 20px;
+     }
+     .address label{
+        font-size: 26px;
+     }
+     #address{
+        font-size: 20px;
+        padding: 8px;
+        margin-left: 59px;
+     }
+     .message{
+        width: 50%;
+        float: left;
+        padding-top: 20px;
+    }
+    .message label{
+        font-size: 26px;
+        padding-left: 90px;
+    }
+    #message{
+        font-size: 20px;
+        padding: 8px;
+        margin-left: 44px;
+        padding-bottom: 100px;
+    }
+.button{
+ padding-top: 20%;
+ margin-right: 1%;
+    }
+.submit{
+    margin-top: 35px;
+    float: left;
+    width: 40%;
+    
+    margin-left: 16%;
+}
+
+
+/* Gallery */
+
+
+}
+    @media(min-width: 200px){
+        
+        .form{
+            font-size: 18px;
+            background: #C4C4C4;
+            padding-bottom: 8%;
+        }
+        .form input{
+            font-size: 18px;
+            padding: 4px;
+            border-radius: 6px;
+            border: white;
+        }
+        
+    .name{
+        padding-top: 20px;
+    }
+    .name label{
+        margin-left: 25px;
+    }
+    .name input{
+        margin-left: 14px;
+    }
+
+    .l_name{
+        margin-top: 20px;
+    }
+
+    .l_name label{
+        margin-left: 25px;
+    }
+    .l_name input{
+        margin-left: 16px;
+    }
+
+    .email{
+       margin-top: 20px;
+       
+    }
+    .email label{
+        margin-left: 25px;
+    }
+    .email input{
+        margin-left: 50px;
+    }
+   
+    .m_no{
+        margin-top: 20px;
+     }
+    .m_no label{
+        margin-left: 25px;
+     }
+     .m_no input{
+        margin-left: 16px;
+     }
+   
+    .address{
+        margin-top: 20px;
+     }
+    .address label{
+        margin-left: 25px;
+     }
+     .address input{
+        margin-left: 35px;
+       
+     }
+   
+    .message{
+        margin-top: 20px;
+     }
+    .message label{
+        margin-left: 25px;
+     }
+     .message input{
+        margin-left: 20px;
+        margin-left: 28px;
+        padding-bottom: 100px;
+     }
+
+
+     .button{
+        padding-top: 7%;
+    }
+    #submit {
+        box-shadow: #adb9be 20px 20px;
+       background: #0286C1;
+       padding: 10px;
+       padding-left: 20px;
+       padding-right: 20px;
+       color: aliceblue;
+       margin-left: 12%;
+    }
+    #submit:hover
+    {
+        background: #88c2dd;
+    }
+
+    #reset{
+    
+       box-shadow: #c9baba 20px 20px;
+       background: #DA4F49;
+       padding: 10px;
+       padding-left: 25px;
+       padding-right: 25px;
+       color: aliceblue;
+       margin-left: 60px;
+    
+    }
+    #reset:hover
+    {
+        background: #e27572;
+    }
+
+    
+    }
+
+    @media(min-width: 200px){
+        .loc h1, .social h1, .contact h1{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 23px;
+        }
+        .loc{
+            width: 33%;
+            float: left;
+            padding-top: 10px;
+        }
+        .social{
+            width: 33%;
+            float: right;
+            margin: 0 auto;
+            padding-top: 10px;
+        }
+        .contact{
+            width: 33%;
+            float: right;
+            padding-top: 10px;
+        }
+        
+        .loc p{
+        margin-left: 25px;
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .contact p{
+        margin-left: 25px;
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .social p{
+        margin-left: 10px;
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .c_f{
+        width: 70%;
+    }
+    .c_f h1{
+        font-size: 28px;
+        padding-left: 50px;
+    }
+    }
+    @media(min-width: 900px){
+        .footer .loc h1, .social h1, .contact h1{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 40px;
+    }
+    .loc{
+        width: 33%;
+        float: left;
+    }
+    .social{
+        width: 33%;
+        float: right;
+        margin: 0 auto;
+        
+    }
+    .contact{
+        width: 33%;
+        float: right;
+    }
+    
+    .loc p{
+        margin-left: 130px;
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .contact p{
+        margin-left: 140px;
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .social p{
+        margin-left: 150px;
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .c_f{
+        margin-left: 20%;
+    }
+    .c_f h1{
+      text-align: left;
+      font-size: 40px;
+      padding-right: 80px;
+    }
+    }
+    .contact p a{
+        text-decoration: none;
+        font-size: 22;
+        padding: 2px;
+        color: black;
+    }
+    .social p a{
+        text-decoration: none;
+        color: black;
+    }
+    .loc p a{
+        padding-top: 10px;
+        text-decoration: none;
+        color: black;
+    }
+    .footer a:hover{
+        background: none;
+    }
+    .footer{
+        padding-bottom: 90px;
+        background: white;
+    }
+
+    
+.main_img{
+    width: 100%;
+    background-image: url(http://tuffline.in/images/gallery/2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 45%;
+    background-position: center;
+}
+.main_img-para{
+    margin-top: 20px;
+}
+.main_img a{
+font-size: 25px;
+color: blue;
+}
+.main_img-para a:hover{
+    color: rgb(122, 113, 113);
+}
+/* Gallery */
+.bag-imges{
+    background: #319aca;
+    
+}
+@media(min-width: 200px){
+    .gal-img1{
+        width: 50%;
+        float: left;
+        background: #319aca;
+    }
+    .gal-img1 a img{
+        width: 90%;
+        margin-left: 15px;
+        margin-top: 15px;
+        border-radius: 7px;
+    }
+    .gal-img2{
+        width: 50%;
+        float: right;
+        background: #319aca;
+    }
+    .gal-img2 a img{
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 15px;  
+        border-radius: 7px;
+    }
+    .gal-img3{
+        width: 50%;
+        float: right;
+        background: #319aca;
+    }
+     .gal-img3 a img{
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 15px;
+        border-radius: 7px;
+    }
+    .gal-img4{
+        width: 50%;
+        float: left;
+        background: #319aca;
+    }
+  .gal-img4 a img{
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 7px;  
+    }
+
+
+
+    .gal-img6{
+        width: 50%;
+        float: left;
+        background: #319aca;
+    }
+    .gal-img6 a img{
+        width: 90%;
+        margin-left: 15px;
+        margin-top: 15px;
+        border-radius: 7px;
+    }
+    .gal-img5{
+        width: 50%;
+        float: right;
+        background: #319aca;
+    }
+    .gal-img5 a img{
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 15px;  
+        border-radius: 7px;
+    }
+     .gal-img7{
+        width: 50%;
+        float: right;
+        background: #319aca;
+    }
+     .gal-img7 a img{
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 15px;
+        border-radius: 7px;
+    }
+    .gal-img8{
+        width: 50%;
+        float: left;
+        background: #319aca;
+    }
+  .gal-img8 a img{
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 7px;  
+    } 
+   
+    .gal-img9{
+        width: 50%;
+        float: right;
+        background: #319aca;
+    }
+    .gal-img9 a img{
+        width: 90%;
+        margin-left: 15px;
+        margin-top: 15px;
+        border-radius: 7px;
+    }
+    .gal-img10{
+        width: 50%;
+        float: left;
+        background: #319aca;
+    }
+    .gal-img10 a img{
+        width: 90%;
+        margin-left: 15px;
+        margin-top: 15px;
+        border-radius: 7px;
+    }
+    .gal-img11{
+        width: 50%;
+        float: right;
+        background: #319aca;
+    }
+    .gal-img11 a img{
+        width: 90%;
+        margin-left: 15px;
+        margin-top: 15px;
+        border-radius: 7px;
+    }
+    .gal-img12{
+        width: 50%;
+        float: right;
+        background: #319aca;
+    }
+    .gal-img12 a img{
+        width: 90%;
+        margin-left: 15px;
+        margin-top: 15px;
+        border-radius: 7px;
+    }
+
+
+
+}
+@media(min-width: 900px){
+    .gal-img1{
+        width: 33.4%;
+        float: left;
+    }
+    .gal-img2{
+        width: 33.3%;
+    }
+    .gal-img3{
+        width: 33.3%;
+        float: right;
+    }
+    .gal-img6{
+        width: 33.4%;
+        float: left;
+    }
+    .gal-img5{
+        width: 33.3%;
+    }
+    .gal-img4{
+        width: 33.3%;
+        float: right;
+    }
+
+    .gal-img7{
+        width: 33.4%;
+        float: right;
+    }
+    .gal-img8{
+        width: 33.3%;
+        margin: 0;
+    }
+    .gal-img9{
+        width: 33.3%;
+        float: left;
+    }
+    .gal-img10{
+        width: 33.4%;
+        float: right;
+    }
+     .gal-img12{
+        width: 33.3%;
+        float: left;
+    }
+     .gal-img11{
+        width: 33.3%;
+        
+    } 
+    
+    
+    #our-gal-head{
+        padding-left: 80px;
+        font-size: 40px;
+    }
+    .abc h1{
+        font-size: 50px;
+       
+    }
+    .abc a{
+        font-size: 40px;
+    }
+}
+
+/* trainers */
+
+@media(min-width: 200px){
+    .trainer1 img{
+        width: 100%;
+    }
+    .trainer2 img{
+        width: 100%;
+    }
+    .trainer3 img{
+        width: 100%;
+    }
+
+}
+
+@media(min-width: 900px){
+.trainer1{
+    margin: 0%;
+    width: 30.2%;
+    float: left;
+}
+.trainer2{
+    width: 30.2%;
+    float: right;
+}
+.trainer3{
+width: 30.3%;
+margin: auto;
+}
+.trainer1 img{
+    width: 80%;
+    display: block;
+    text-align: center;
+    height: 44vh;
+    padding-left: 45px;
+}
+.trainer2 img{
+    margin-left: 10px;
+    width: 80%;
+    height: 44vh;
+    padding-left: 25px;
+}
+.trainer3 img{
+    width: 80%;
+    height: 44vh;
+    padding-left: 35px;
+}
+.trainer1, .trainer2, .trainer3 p{
+    font-size: 20px;
+}
+.trainer2 h1{
+    padding-left: 97px;
+}
+.trainer2 p{
+    padding-left: 24px;
+}
+.trainer1 h1{
+    padding-left: 97px;
+}
+.trainer1 p{
+    padding-left: 45px;
+}
+.trainer3 h1{
+    padding-left: 80px;
+}
+.trainer3 p{
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+}
+
+/* Program css */
+
+.programs-all{
+   background: #f3e200;
+   padding-bottom: 10%;
+}
+
+#pg_h{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.program-zumba-text h1{
+    text-align: center;
+    padding-bottom: 10px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.programs-yaga{
+    padding-top: 10%;
+}
+.program-yoga-text h1{
+    text-align: center;
+    padding-bottom: 10px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+@media(min-width: 900px){
+     
+    #pg_h{
+        font-size: 50px;
+    }
+.program-zumba-img{
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.program-zumba-text{
+    width: 50%;
+    float: right;
+}
+.program-zumba-text p{
+    margin-left: 7%;
+    margin-right: 10px;
+   
+}
+#program-zumba-text-head{
+    font-size: 40px;
+}
+#program-zumba-text-para{
+    font-size: 25px;
+}
+
+
+
+/* =============== */
+
+.program-yoga-text{
+    width: 50%;
+    float: left;
+}
+.program-yoga-img{
+    width: 47%;
+    float: right;
+    margin-right: 25px;
+    margin-top: 40px;
+}
+.program-zumba-text p{
+    margin-left: 15%;
+    margin-right: 20px;
+    font-size: 40px;
+}
+#program-yoga-text-head{
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+#program-yoga-text-para{
+    font-size: 25px;
+    margin-left: 8%;
+}
+.programs-all{
+    background: #f3e200;
+    padding-bottom: 35%;
+ }
+}
+@media(min-width: 200px){
+    .program-zumba-img img{
+        width: 90%;
+        align-items: center;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 1px rgb(194, 182, 182);
+        display: block;    margin: auto;
+        padding-bottom: 20px;
+    }
+    .program-zumba-text p{
+        font-size: 19px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .program-yoga-img img{
+        width: 90%;
+        align-items: center;
+        text-align: center;
+        border-radius: 5px;
+        display: block;    margin: auto;
+        padding-bottom: 20px;
+    }
+    .program-yoga-text p{
+        font-size: 19px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+
+/* .nav ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #2c3e50;
+    top: 90px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+} */
+
+
+/* servicess css */
+
+@media(min-width: 200px){
+    .service-diet-plan{
+        width: 100%;
+    }
+    .service-diet-plan img{
+        padding-top: 90px;
+        width: 100%;
+    }
+    .service-diet-form{
+        background: #bac5ca;  
+    }
+   .service-diet-form h1{
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }
+    
+ 
+    .service-diet-form p{
+        padding: 5px;
+        padding-left: 30px;
+          background: #bac5ca;
+       }
+
+       /* diet plan for */
+    /* .free-diet-plan-form{
+
+       } */
+}
+
+
+
+/* Diet plan form */
+@media(min-width: 200px){
+
+    .freediet-plan{ 
+        width: 100%;
+        padding-top: 15px;
+        background-color: rgba(50, 115, 220, 0.3);
+        font-size: 20px;
+        padding-left: 30px;
+        
+    }
+    .freediet-plan input{
+        width: 50%;
+        font-size: 18px;
+        margin-left: 20px;
+        margin: 20px;
+        padding: 3px;
+       border-radius: 4px;
+       border: white;
+    }
+    #diet-weight{
+        margin-left: 50px;
+    }
+    #diet-height{
+        margin-left: 55px;
+    }
+    #diet-mono{
+        margin-left: 17px;
+    }
+    #vegetarian{
+        font-size: 18px;
+        padding: 3px;
+        border-radius: 4px;
+        margin-left: 20px;
+    }
+    #weight-manager{
+        font-size: 18px;
+        padding: 3px;
+        border-radius: 4px;
+        margin-left: 20px;
+    }
+    #submit-btn{
+        width: 18%;
+        padding: 5px;
+    }
+
+    .free-diet-plan-form{
+        background-color: rgba(50, 115, 220, 0.3);
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-bottom: 3.64%;
+    }
+    .free-diet-plan-form p{
+        padding-top: 10px;
+        font-size: 15px;
+       
+      }
+      #second-header{
+          padding-top: 25px;
+      }
+
+
+      /* functional traning */
+
+      .services-group-traning{
+         width: 100%;
+        
+    }
+    .services-group-traning iframe{
+        text-align: center;
+        width: 375px;
+        height: 250px;
+    }
+    .services-group-traning-video{
+       
+        background: #F0FFF0;
+    }
+    .services-group-traning-video h1{
+        padding-left: 30px;
+        color: #DA4F49;
+        padding-top: 17px;
+        padding-bottom: 14px;
+    }
+    .services-group-traning-video h2{
+        padding-left: 30px;
+        color: #DA4F49;
+        padding-bottom: 12px;
+    }
+    .services-group-traning-video p{
+        padding-bottom: 10px;
+        padding-left: 40px;
+    }
+
+
+
+    .servi-fun-train{
+       
+        background: #FFB6C1;
+        padding-bottom: 7%;
+        }
+    .serv-fun-group-train-right iframe{
+        text-align: center;
+        height: 250px;
+        width: 375px;
+    } 
+    .serv-fun-group-train-left{
+       
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 10px;
+      
+    }
+    .serv-per-group-train-left p{
+        padding-top: 10px;
+    }
+    .serv-per-group-train-right iframe{
+      
+        padding-top: 20px;
+        height: 250px;
+        width: 375px;
+    }
+    .serv-per-group-train-left{
+        padding-left: 25px;
+        padding-right: 10px;
+    }
+
+   
+}
+@media(min-width: 900px){
+    .service-diet-plan{
+        margin: 0;
+        width: 60%;
+        float: left;
+    }
+    .service-diet-plan img{
+        width: 100%;
+    }
+    
+    
+    .service-diet-form{
+        margin: 0;
+        padding-top: 90px;
+        padding-bottom: 3.18%;
+        width: 40%;
+        background: #bac5ca;
+        float: right;
+    } 
+    .service-diet-form h1{
+        padding-top: 20px;
+     text-align: center;
+     padding-bottom: 30px;
+    }
+    
+    .service-diet-form p{
+     padding: 10px;
+     font-size: 20px;
+     padding-left: 40px;
+    }
+
+    /* Diet plan form */
+    .free-diet-plan-form{
+        margin: 0%;
+        width: 50%;
+        float: right;
+        background-color: rgba(50, 115, 220, 0.3);
+        padding-top: 40px;
+        padding-left: 55px;
+        padding-bottom: 3.64%;
+    }
+    .free-diet-plan-form h2{
+        padding-bottom: 12.4px;
+    }
+    .freediet-plan{ 
+        padding-top: 15px;
+        width: 50%;
+        float: left;
+        background-color: rgba(50, 115, 220, 0.3);
+        font-size: 23px;
+        padding-left: 70px;
+        
+    }
+    .freediet-plan input{
+        font-size: 20px;
+        margin-left: 20px;
+        margin: 20px;
+        padding: 5px;
+       border-radius: 4px;
+       border: white;
+    }
+    #diet-weight{
+        margin-left: 54px;
+    }
+    #diet-height{
+        margin-left: 59px;
+    }
+    #diet-mono{
+        margin-left: 17px;
+    }
+    #vegetarian{
+        font-size: 23px;
+        padding: 3px;
+        border-radius: 4px;
+        margin-left: 25px;
+    }
+    .free-diet-plan-form p{
+      padding-top: 10px;
+      font-size: 20px;
+      padding-left: 30px;
+    }
+    #second-header{
+        padding-top: 25px;
+    }
+    #weight-manager{
+        font-size: 23px;
+        padding: 3px;
+        border-radius: 4px;
+        margin-left: 30px;
+    }
+   
+/* functional traning */
+.services-group-traning-video{
+    width: 43%;
+    float: right;
+    background: #F0FFF0;
+}
+.services-group-traning{
+    width: 57%;
+    float: left;
+}
+.services-group-traning iframe{
+    width: 720px;
+    height: 420px;
+}
+.services-group-traning-video h1{
+    padding-left: 30px;
+    color: #DA4F49;
+    padding-top: 17px;
+    padding-bottom: 14px;
+}
+.services-group-traning-video h2{
+    padding-left: 30px;
+    color: #DA4F49;
+    padding-bottom: 12px;
+}
+.services-group-traning-video p{
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+
+
+/* Grop Traing Css */
+.servi-fun-train{
+    margin: 0px;
+    width: 100%;
+    float: left;
+    background: #FFB6C1;
+    padding-bottom: 5%;
+    }
+   .serv-fun-group-train-right{
+        width: 50%;
+        float: right;
+        text-align: center;
+        padding-top: 40px;
+        border-radius: 9px;
+    }
+     .serv-fun-group-train-right iframe{
+        height: 330px;
+        width: 526px;
+        border-radius: 15px;
+    } 
+   .serv-fun-group-train-left{
+        width: 50%;
+        float: left;
+        padding-top: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 20px;
+    }
+    .serv-fun-group-train-left p{
+        padding-top: 30px;
+    }
+    .serv-per-group-train-left{
+        padding-top: 10%;
+        width: 50%;
+        float: right;
+        font-size: 20px;
+        padding-right: 40px;
+        padding-left: 20px;
+    }
+    .serv-per-group-train-right{
+        padding-top: 10%;
+        width: 50%;
+        float: left;
+        border-radius: 15px;
+    }
+    .serv-per-group-train-right iframe{
+        height: 330px;
+        width: 526px;
+        padding-left: 30px;
+        border-radius: 15px;
+    }
+}
+  

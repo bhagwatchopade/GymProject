@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Up</title>
+
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Style1.css">
+    <link rel="stylesheet" href="style3.css">
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js" ></script>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="icon" href="image/gymlogo.jpg">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    
+    <style>
+       
+        @media (min-width: 200px) {
+            .back_color_yllow{
+            padding-top: 90px;
+            background: rgb(231, 231, 41);
+            height: 90vh;
+             
+        }
+        .back_color_yllow h1{
+            font-size: 60px;
+            color: azure;
+            padding-top: 25%;
+            text-align: center;
+        }
+        .back_color_yllow a{
+            text-decoration: none;
+            float: right;border: 1.5px solid white;
+            margin-top: 25px;
+            margin-right: 30px;
+            font-size: 20px;
+            color: white;
+            padding: 6px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 14px;
+        }
+        .reg_form{
+            width: 85%;
+            margin-left: 7.5%;
+            padding-top: 5%;
+            padding-bottom: 10px;
+
+        }
+         .form-var{
+           background: white;
+           box-shadow: 1px 2px 6px 5px  rgb(202, 191, 191);
+           padding-top: 40px;
+        }
+        .required {
+        color: red;
+    }
+    div label{
+        font-size: 20px;
+        margin-left: 8%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+    .reg_form input{
+        padding: 9px;
+        width: 80%;
+        margin-left: 8%;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background: #ebe9e9;
+        border: #ebe9e9;
+    }
+    .reg_form select{
+        width: 80%;
+        margin-left: 8%;
+        padding: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 20px;
+        background: #ebe9e9;
+        border: #c8c6c6;
+    }
+    .reg_form button{
+        font-size: 20px;
+        padding: 10px;
+        margin-left: 8%;
+        margin-bottom: 30px;
+        background: rgb(54, 174, 54);
+        border: rgb(99, 239, 99);
+        margin-top: 20px;
+        color: white;
+        border-radius: 4px;
+    }
+    
+    .g-recaptcha{
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+    
+        }
+       
+
+        @media (min-width: 900px){
+            .back_color_yllow{
+            padding-top: 90px;
+            background: rgb(231, 231, 41);
+            height: 90vh;
+             
+        }
+        .back_color_yllow h1{
+            font-size: 80px;
+            color: azure;
+            padding-top: 10%;
+            text-align: center;
+        }
+        .back_color_yllow a{
+            text-decoration: none;
+            float: right;border: 1.5px solid white;
+            margin-top: 25px;
+            margin-right: 30px;
+            font-size: 20px;
+            color: white;
+            padding: 6px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 14px;
+        }
+        .reg_form{
+            width: 50%;
+            margin-left: 25%;
+            padding-top: 5%;
+            padding-bottom: 10px;
+
+        }
+        .form-var{
+           background: white;
+           box-shadow: 1px 2px 6px 5px  rgb(202, 191, 191);
+           padding-top: 40px;
+        }
+        .required {
+        color: red;
+    }
+    div label{
+        font-size: 22px;
+        margin-left: 8%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+    .reg_form input{
+        padding: 9px;
+        width: 80%;
+        margin-left: 8%;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background: #ebe9e9;
+        border: #ebe9e9;
+    }
+    .reg_form select{
+        width: 80%;
+        margin-left: 8%;
+        padding: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 20px;
+        background: #ebe9e9;
+        border: #c8c6c6;
+    }
+    .reg_form button{
+        font-size: 20px;
+        padding: 10px;
+        margin-left: 8%;
+        margin-bottom: 30px;
+        background: rgb(54, 174, 54);
+        border: rgb(99, 239, 99);
+        margin-top: 20px;
+        color: white;
+        border-radius: 4px;
+    }
+    
+    .g-recaptcha{
+            margin-left: 50px;
+            margin-top: 10px;
+        }
+        }
+        .ankle_tag{
+            padding-top: 22%;
+            text-align: center;
+            padding-bottom: 20%;
+        }
+        .ankle_tag a{
+            margin-left: 50px;
+            margin-right: 40px;
+           
+        }
+        input:hover{
+            background: white;
+            border: 2px solid black;
+        }
+        button:hover{
+            background: green;
+        }  
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <nav class="navigation">
+       
+       <img class="logo" src="image/gymlogo.jpg" alt="logo">
+
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+       <ul>
+       
+           <li><a href="index.html">Home</a></li>
+           <li><a href="program.html">Program</a></li>
+           <li><a href="gallery.html">Gallery</a></li>
+           <li><a href="services.html" id="service">Services</a></li>
+           <li><a href="About.html">About</a></li>
+           <li><a href="contact_form.html">Contact</a></li>
+           
+           <!-- <div class="drop-down-menu">
+             <ul>
+                
+                 <li><a href="">Pakistan</a></li>
+                 <li><a href="">Amerika</a></li>
+                 <li><a href="">Australia</a></li>
+             </ul> -->
+  
+           
+            </div>
+       </ul>
+    </nav>
+   </div> 
+</div> 
+    <div class="back_color_yllow">
+     <a href="RegistrationForm.html">Sign Up</a>
+     <h1>SIGN IN <INput:email></INput:email></h1>
+        <div class="reg_form">
+                 <div class="form-var">
+                        <label for="name" > Email/MO.NO<span class="required">*</span></label><br>
+                        <input type="text" placeholder=" mo.no "><br>
+                        <label for="" id="p">Password</label>
+                        <input type="password" placeholder="password">
+                        <div class="g-recaptcha" data-sitekey="6LfIm2YfAAAAAKVruezSwJ3Ef7aEBcrHDiYQ0NB0">
+
+                        </div>
+
+                        <button>SIGN IN</button>
+                 </div>
+        </div>
+    
+    </div>
+   
+   <div class="ankle_tag">
+    <a href="recover_pass.html">Forgot Password?</a>
+    <a href="RegistrationForm.html">SIGN IN</a>
+   </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+.about-gym h1{
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 80px;
+    background-color: antiquewhite;
+}
+.about-gym-info{
+    width: 50%;
+    float: right;
+    background-color: antiquewhite;
+}
+.about-gym-img{
+    width: 50%;
+    float: left;
+    background-color: antiquewhite;
+    padding-bottom: 32px;
+}
+.about-gym-img img{
+    width: 67%;
+    height: 75vh;
+    padding-left: 80px;
+
+}
+.about-gym-info p{
+    font-family: serif;
+    font-size: 20px;
+    padding-right: 40px;
+}
+.about-gym-found{
+    width: 50%;
+    float: left;
+    background-color: antiquewhite;
+}
+.about-gym-found p{
+    font-family: serif;
+    font-size: 20px;
+    padding-right: 40px;
+    margin-left: 50px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+.about-gym-found h1{
+    padding-top: 100px;
+    padding-bottom: 60px;
+    margin-left: 80px;
+}
+.about-gym-foun-img{
+    width: 50%;
+    float: right;
+    background-color: antiquewhite;
+    padding-bottom: 52.5px;
+}
+
+.about-gym-foun-img img{
+    padding-top: 100px;
+    padding-left: 80px;
+    margin-left: 70px;
+    width: 75%;
+    height: 100vh;
+}
